@@ -1,0 +1,65 @@
+/* Footer.css */
+.footer {
+  
+    /* Dark gray background */
+    color: #0a0a0a;
+    /* Off-white text color */
+}
+
+.footer a {
+    color: inherit;
+    /* Inherit text color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.footer a:hover {
+    color: #D1D5DB;
+    /* Light gray hover color */
+}
+
+.footer .container {
+    max-width: 1200px;
+    /* Max width of the container */
+    margin: 0 auto;
+    /* Center align container */
+}
+
+.footer .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .w-full {
+    width: 100%;
+}
+
+.footer .sm\:w-1\/4 {
+    width: 25%;
+}
+
+.footer .text-center {
+    text-align: center;
+}
+
+.footer .py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer .text-xl {
+    font-size: 1.25rem;
+}
+
+.footer .font-semibold {
+    font-weight: 600;
+}
+
+.footer .pt-4 {
+    padding-top: 1rem;
+}
+
+.footer .space-y-2 {
+    margin-bottom: 0.5rem;
+}
